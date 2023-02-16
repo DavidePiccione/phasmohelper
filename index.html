@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="style.css">
+    <script src="checkbox.js"></script>
+    <title>Super Phasmo Helper</title>
+</head>
+
+<body>   <!-- BODY -->
+    <div class="grid-container">    <!-- main page grid --> 
+        
+        <div class="flex-proof-container"> <!-- evidence section -->
+            <div class="button-container">
+                <input class="button" type="button" id="proof1" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof1">Fingerprints</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof2" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof2">EMF Level 5</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof3" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof3">Ghost Orbs</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof4" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof4">D.O.T.S. Projector</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof5" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof5">Ghost Writing</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof6" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof6">Spirit Box</label>
+            </div>
+            <div class="button-container">
+                <input class="button" type="button" id="proof7" onclick="selected(this)" value="OFF">
+                <label class="proof-label" for="proof7">Freezing Temperatures</label>
+            </div>
+        </div>
+        
+        <div id="flex-results"> <!-- results section -->
+            
+        </div> <!-- /results section -->
+        
+    </div>   <!-- /main page grid-->
+    
+    <!-- <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. -->
+    
+    <!-- <div class="button-container">
+        <input class="button" type="button" id="test" onclick="getTable(this)" value="OFF">
+        <label class="proof-label" for="test">TEST</label>
+    </div> -->
+
+</body>   <!-- /BODY -->
+
+</html>

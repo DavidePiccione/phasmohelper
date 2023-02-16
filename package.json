@@ -1,0 +1,19 @@
+{
+  "name": "phasmo-helper-gui",
+  "version": "1.0.0",
+  "description": "PhasmoHelperGUI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "install-app-deps"
+  },
+  "author": "Skenix",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-builder": "^22.10.3"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.2"
+  }
+}
